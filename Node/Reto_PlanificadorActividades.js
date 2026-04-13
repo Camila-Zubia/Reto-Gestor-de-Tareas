@@ -15,13 +15,12 @@ function prepareActivities(arreglo){
 
 const activities1 = [3, 1, 2, 3, 4, 2, 5]
 const plannedActivities1 = prepareActivities(activities1)
-console.log(plannedActivities1) // [1, 2, 3, 4, 5]
+console.log(plannedActivities1)
 
 const activities2 = [6, 5, 5, 5, 5]
 const plannedActivities2 = prepareActivities(activities2)
-console.log(plannedActivities2) // [5, 6]
+console.log(plannedActivities2)
 
 const activities3 = []
 const plannedActivities3 = prepareActivities(activities3)
-console.log(plannedActivities3) // []
-// No hay actividades, la lista queda vacía
+console.log(plannedActivities3) 
