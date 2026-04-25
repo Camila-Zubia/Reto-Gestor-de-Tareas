@@ -30,7 +30,7 @@ function organizeShoes(zapatos){
         for(let j = i + 1; j < zapatos.length; j++){
             if(usados.includes(j)) continue;
             if(zapatos[i].type !== zapatos[j].type && zapatos[i].size === zapatos[j].size){
-                zapatosPar.push([zapatos[i], zapatos[j]]);
+                zapatosPar.push(zapatos[i].size);
                 usados.push(i);
                 usados.push(j);
                 break;
@@ -40,4 +40,6 @@ function organizeShoes(zapatos){
     return zapatosPar;
 }
 
-console.log(organizeShoes(shoes))
+console.log(organizeShoes(shoes));
+console.log(organizeShoes(shoes2));
+console.log(organizeShoes(shoes3));
