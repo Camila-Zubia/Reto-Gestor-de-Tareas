@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "on",
+    "editor.tabCompletion": "on",
+    "js/ts.inlayHints.parameterNames.enabled": "all",
+    "js/ts.inlayHints.variableTypes.enabled": true,
+    "js/ts.inlayHints.functionLikeReturnTypes.enabled": true
+}
